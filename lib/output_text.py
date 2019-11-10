@@ -45,16 +45,6 @@ class PDFSearch:
             text.append(page)
         text = ''.join(text)
 
-        # Clean up text
-
-        # Strip out multiple line breaks
-        text = re.sub('\n\n', '\n',text)
-    
-        # Remove multiple spaces
-        text = re.sub(' +', ' ',text)
-        
-        # Remove hyphenated words.
-        text = re.sub('-{1}\n ', '',text)
         # Write the text file
         txt_file = open(output_file_path, "w")
         txt_file.write(text)
