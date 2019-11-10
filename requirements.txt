@@ -1,0 +1,8 @@
+Flask==0.10
+Flask-Bootstrap==3.2.0.2
+simplejson==3.6.0
+Pillow==2.5.1
+xpdf_python==0.0.10
+sip==4.19.8
+ocrmypdf==8.3.0
+-e git://github.com/pdfminer/pdfminer.six#egg=pdfminer
