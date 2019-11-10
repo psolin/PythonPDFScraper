@@ -25,7 +25,7 @@ class PDFSearch:
         output_file_name = self.file_name_clean + output_file_suffix
         output_file_path = os.path.join(self.file_directory, output_file_name)
 
-        ocrmypdf.api.run(input_file=self.file_path, output_file=output_file_path, force_ocr=True, deskew=True)
+        ocrmypdf.api.ocr(input_file=self.file_path, output_file=output_file_path, force_ocr=True, deskew=True)
 
     def dump(self, **kwargs):
         output_file_suffix = "_txt_output.txt"
