@@ -2,5 +2,5 @@ flask
 flask_bootstrap
 Pillow
 Simplejson
-ocrmypdf>=5.4
-pdftotext==2.1.2
+pdftotext
+image
