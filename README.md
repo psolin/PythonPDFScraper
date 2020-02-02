@@ -19,6 +19,8 @@ Lastly, install the requirements:
 ```sudo pip3 install -r requirements.txt```     
 
 ## To Run
+```source virtual/bin/activate```
+
 ```python3 app.py runserver```
 
 A new web page should open up in your default web browser.
