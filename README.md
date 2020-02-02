@@ -14,7 +14,7 @@ On a Mac, install XCode:
 Then, install ocrmypdf:
 https://github.com/jbarlow83/OCRmyPDF
 
-Lastly, install the requirements:
+Lastly, install the requirements (optional - or run the virtual enviornment):
 
 ```sudo pip3 install -r requirements.txt```     
 
